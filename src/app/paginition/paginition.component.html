@@ -1,0 +1,7 @@
+<div *ngFor="let item of paginatedItems">
+    <!-- Itt jelenítsd meg a termékeket -->
+  </div>
+  
+  <div *ngFor="let page of pages">
+    <button (click)="setPage(page)">{{ page }}</button>
+  </div>
